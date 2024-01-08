@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- titre de la page -->
+    <title>first website for me</title>
+    <!-- Icone de l'onglet  -->
+    <link rel="shortcut icon" href="./logo head.png" />
+  </head>
+  <body>
+    <nav>
+      <!-- UL = Unordered list -->
+      <ul>
+        <li>Accueil</li>
+        <li>Boutique</li>
+        <li><a href="#form">Formulaire</li>
+      </ul>
+    </nav>
+    <header>
+      <!-- Un seul H1 par page  -->
+      <h1>Ceci est le titre principal</h1>
+      <p>
+        Texte classique <em>Texte en italique</em>.
+        <strong> Texte en gras</strong>
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem
+        aperiam repudiandae soluta, officia, dolores quibusdam pariatur
+        reiciendis ducimus ipsum debitis excepturi voluptatem consectetur
+        officiis possimus placeat vitae et nemo totam.
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Ordered List </h2>
+        <ol>
+          <li>Ceci est une</li>
+          <li>liste dans</li>
+          <li>l'ordre</li>
+        </ol>
+        <section>
+
+        <section>
+          <h3>Image HTML</h3>
+          <img src="./Eva et moi.png" height="200" alt="image-section">
+          <!-- L'alt de l'image est pour l'accessibilité -->
+
+          <div>
+            <H4>Tableaux</H4>
+            <table border="4" cellpadding="10" cellspacing="4" style="text-align: center">  
+              <!-- thead est pour l'entete du tableau -->
+              <thead>
+                <tr>
+                  <th>Col 1</th>
+                  <th>Col 2</th>
+                  <th>Col 3</th>
+                </tr> 
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Cell 1</td>
+                  <td>Cell 2</td>
+                  <td>Cell 3</td>
+
+                </tr>
+                <tr>
+                  <td>Cell 4</td>
+                  <td>Cell 5</td>
+                  <td>Cell 6</td>
+                  
+                </tr>
+              </tbody>
+            </table>
+                    
+            </table>
+          </div>
+          <div>
+            <h5>Les liens</h5>
+            <!-- _ Blank permet de créer un nouvel onglet -->
+            <a href="https://htmlcheatsheet.com"target="_blank">HTML Cheat Sheet</a>
+          </div>
+          <div>
+            <h6>Vidéos</h6>
+            <video src="./Djokovic.MP4" height="200" autoplay muted loop></video>
+          </div>
+        </section>
+      <section id="form">
+        <h2> Les formulaires</h2>
+        <form action="">
+          <!-- for et "id" permet de lier le label à l'input -->
+          <label for="name">Nom</label>
+          <input type="text" id="name" placeholder="Entrez votre nom">
+
+          <br>
+
+          <label for="">Entrez votre age</label>
+          <input type="number" id="age" value="18">
+
+          <br>
+
+          <!-- Input de type select  -->
+          <label for="Gender">Genre</label>
+          <select id="Gender">
+            <option value="Homme">Homme</option>
+            <option selected="selected"
+            <option value="Femme">Femme</option>
+            <option value="Autre">Autre</option>
+          </select>
+
+          <!-- Input de type radio -->
+
+          <div>
+            <input type="radio" name="type" id="human" checked />
+            <label for="human">Humain</label>
+
+            <input type="radio" name="type" id="human"> 
+            <label for="dog">Chien</label>
+            
+
+            <input type="radio" name="type" id="human"> 
+            <label for="cat">Chat</label>
+          </div>
+          <textarea placeholder="Votre message..." cols="20" rows="10"></textarea>
+
+          <br>
+
+          <!-- input de tupe checkbox -->
+          <input type="checkbox" name="" id="cgv">
+          <label for="">Accepter les conditions générales</label>
+
+          <br>
+           <!-- input de type submit permet de valider  -->
+          <input type="submit" value="valider">
+          
+        </form>
+        <button>ceci est un bouton</button>
+      </section>
+    </main>
+    <!-- Mail et envoi de fichiers -->
+    <footer>
+      <a href="mailto:timothe.leonetti@outlook.fr">contactez moi</a>
+      <a href="./notice.txt" dowload="Notice d'utilisation">Télécharger la notice</a>
+    </footer>
+  </body>
+</html>
